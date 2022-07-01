@@ -61,5 +61,5 @@ connectWithRetry();
 var port = process.env.SERVER_PORT || 8080;
 
 app.listen(port, () => {
-    console.log('Servidor rodando na porta ' + port);
+    console.log(`Servidor rodando em http://localhost:${port}`);
 });
